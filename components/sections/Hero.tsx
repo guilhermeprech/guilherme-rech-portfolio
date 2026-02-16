@@ -1,7 +1,6 @@
 export default function Hero() {
     return (
       <section className="relative overflow-hidden bg-[#0F1115] text-[#F5F7FA]">
-        {/* background glow */}
         <div
           aria-hidden="true"
           className="pointer-events-none absolute -top-40 left-1/2 h-[560px] w-[560px] -translate-x-1/2 rounded-full blur-3xl"
@@ -11,7 +10,7 @@ export default function Hero() {
           }}
         />
   
-        <div className="mx-auto max-w-5xl px-6 py-20 sm:py-24">
+        <div className="mx-auto max-w-5xl px-6 pt-28 pb-20 sm:pt-32 sm:pb-24">
           <p className="text-sm font-medium tracking-[0.18em] text-[#9AA3AE]">
             SITES • SISTEMAS • APLICATIVOS
           </p>

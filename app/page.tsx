@@ -11,37 +11,39 @@ import Reveal from "@/components/Reveal";
 
 export default function Home() {
   return (
-    <main id="topo">
+    <main
+      id="topo"
+      className="bg-[#0F1115] text-[#F5F7FA] pt-24 sm:pt-28"
+    >
       <Header />
-      <div className="pt-24">
-        <Hero />
 
-        <Reveal>
-          <Value />
-        </Reveal>
+      <Hero />
 
-        <Reveal>
-          <Services />
-        </Reveal>
+      <Reveal>
+        <Value />
+      </Reveal>
 
-        <Reveal>
-          <Project />
-        </Reveal>
+      <Reveal>
+        <Services />
+      </Reveal>
 
-        <Reveal>
-          <Process />
-        </Reveal>
+      <Reveal>
+        <Project />
+      </Reveal>
 
-        <Reveal>
-          <About />
-        </Reveal>
+      <Reveal>
+        <Process />
+      </Reveal>
 
-        <Reveal>
-          <CTA />
-        </Reveal>
+      <Reveal>
+        <About />
+      </Reveal>
 
-        <Footer />
-      </div>
+      <Reveal>
+        <CTA />
+      </Reveal>
+
+      <Footer />
     </main>
   );
 }
