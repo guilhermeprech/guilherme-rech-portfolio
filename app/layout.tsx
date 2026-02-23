@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://guilhermerech.com"), // depois troca pelo domínio real
+  metadataBase: new URL("https://www.guilhermerech.com.br"),
 
   title: {
     default: "Guilherme Rech — Sites, Sistemas e Aplicativos",
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     title: "Guilherme Rech — Soluções Digitais Sob Medida",
     description:
       "Sites, sistemas e aplicativos desenvolvidos com foco em performance, elegância e resultado.",
-    url: "https://guilhermerech.com",
+    url: "https://www.guilhermerech.com.br",
     siteName: "Guilherme Rech",
     locale: "pt_BR",
     type: "website",
